@@ -4,19 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <style>
-
-    </style>
 </head>
 
 <body>
     <h1>Form test</h1>
     <form name="contact" method="POST" data-netlify="true">
         <label for="name">Your name: <input type="text" id="name" name="name"></label>
-        <!-- <label for="email">Email</label>
-        <label for="message">Message</label>
-        <label for=""></label> -->
+        <label for="email">Email: <input type="email" id="email" name="email"></label>
+        <label for="message">Message: </label><textarea id="message" name="message"></textarea>
+        <input type="submit">
     </form>
 </body>
 
